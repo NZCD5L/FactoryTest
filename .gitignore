@@ -1,0 +1,229 @@
+# ===================================================================
+# FactoryTest - Git Ignore File
+# ===================================================================
+
+# ===================================================================
+# CRITICAL: Never commit these files (Security Risk)
+# ===================================================================
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+config/secrets.py
+
+# API Keys and credentials
+**/api_keys.txt
+**/credentials.json
+**/*_credentials.*
+
+# ===================================================================
+# Database Files (Too large / Sensitive data)
+# ===================================================================
+
+# CSV data files (contain sensitive investor/company data)
+*.csv
+Companies.csv
+KPIs_prueba.csv
+dealflow_prueba.csv
+
+# Database dumps and backups
+*.sql
+*.dump
+*.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL data directory
+postgresql@*/
+/opt/homebrew/var/postgresql@*/
+
+# ===================================================================
+# Python
+# ===================================================================
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmyp.json
+
+# ===================================================================
+# IDEs and Editors
+# ===================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ===================================================================
+# Operating System
+# ===================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===================================================================
+# Logs and Temporary Files
+# ===================================================================
+
+# Log files
+*.log
+logs/
+*.out
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ===================================================================
+# Node.js (if you add a frontend later)
+# ===================================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+package-lock.json
+yarn.lock
+
+# ===================================================================
+# AWS and Cloud
+# ===================================================================
+
+# AWS credentials
+.aws/credentials
+.aws/config
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# ===================================================================
+# Documentation (Keep in Git, but exclude some)
+# ===================================================================
+
+# Keep these in Git:
+# *.md (Markdown files)
+# README.md
+# SECURITY_ARCHITECTURE.md
+# etc.
+
+# Exclude personal notes if any
+NOTES_PERSONAL.md
+TODO_PERSONAL.md
+
+# ===================================================================
+# Airflow (for Week 2)
+# ===================================================================
+
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+logs/
+scheduler/
+
+# ===================================================================
+# Streamlit (for Week 3-4)
+# ===================================================================
+
+.streamlit/secrets.toml
+
+# ===================================================================
+# Testing and Coverage
+# ===================================================================
+
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===================================================================
+# Backup Files
+# ===================================================================
+
+*.bak
+*.backup
+*_backup/
+backup/
+
+# ===================================================================
+# Factory.ai artifacts
+# ===================================================================
+
+.factory/artifacts/
+
+# ===================================================================
+# Custom Exclusions for This Project
+# ===================================================================
+
+# Exclude large test data files
+test_data_large/
+
+# Exclude any generated reports
+reports/*.pdf
+reports/*.xlsx
+
+# Exclude investor-specific directories (when we add them)
+investor_data/
+lp_data/
