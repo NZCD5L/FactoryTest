@@ -151,9 +151,11 @@ pip install -r requirements.txt
 FactoryTest/
 ├── README.md                 # Project overview (start here)
 ├── SETUP_GUIDE.md           # Complete setup instructions
-├── SECURITY_ARCHITECTURE.md # LP security design
-├── FINAL_PDR_12WEEKS.md     # 12-week roadmap
-├── QUICK_REFERENCE.md       # This file
+├── QUICK_REFERENCE.md       # This file - daily cheat sheet
+│
+├── docs/private/            # Private docs (gitignored)
+│   ├── FINAL_PDR_12WEEKS.md          # 12-week roadmap
+│   └── SECURITY_ARCHITECTURE.md       # LP security design
 │
 ├── .env                     # Your API key (gitignored)
 ├── .env.example             # Template
@@ -163,10 +165,10 @@ FactoryTest/
 ├── quick_demo.py           # Quick 3-question test
 ├── advanced_test.py        # Complex reasoning test
 │
-├── venv/                   # Virtual environment
-├── Companies.csv           # 2,175 companies
-├── KPIs_prueba.csv        # 21,514 KPI records
-└── dealflow_prueba.csv    # 4,676 deals
+├── venv/                   # Virtual environment (gitignored)
+├── Companies.csv           # 2,175 companies (gitignored)
+├── KPIs_prueba.csv        # 21,514 KPI records (gitignored)
+└── dealflow_prueba.csv    # 4,676 deals (gitignored)
 ```
 
 ---

@@ -171,6 +171,11 @@ yarn.lock
 NOTES_PERSONAL.md
 TODO_PERSONAL.md
 
+# Private documentation (business strategy, internal plans)
+docs/private/
+*_PRIVATE.md
+INTERNAL_*.md
+
 # ===================================================================
 # Airflow (for Week 2)
 # ===================================================================

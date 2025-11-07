@@ -76,12 +76,21 @@ Question: What are the top 5 companies by valuation?
 
 ## 📚 Documentation
 
+### Public Documentation
 | Document | Purpose |
 |----------|---------|
 | **[SETUP_GUIDE.md](SETUP_GUIDE.md)** | Complete setup & initialization (START HERE) |
-| **[FINAL_PDR_12WEEKS.md](FINAL_PDR_12WEEKS.md)** | 12-week product roadmap |
-| **[SECURITY_ARCHITECTURE.md](SECURITY_ARCHITECTURE.md)** | LP security & gatekeeping design |
+| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet for daily use |
 | **README.md** | This file - project overview |
+
+### Private Documentation (Local Only)
+| Document | Location | Purpose |
+|----------|----------|---------|
+| **FINAL_PDR_12WEEKS.md** | `docs/private/` | 12-week product roadmap |
+| **SECURITY_ARCHITECTURE.md** | `docs/private/` | LP security & gatekeeping design |
+| **DOCUMENTATION_CLEANUP_SUMMARY.md** | `docs/private/` | Documentation consolidation details |
+
+*Private docs are gitignored and not pushed to GitHub*
 
 ---
 

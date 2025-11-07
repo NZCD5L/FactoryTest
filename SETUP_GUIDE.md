@@ -425,8 +425,13 @@ FactoryTest/
 │
 ├── README.md                 # Project overview
 ├── SETUP_GUIDE.md            # This file - setup instructions
-├── SECURITY_ARCHITECTURE.md  # LP security design
-├── FINAL_PDR_12WEEKS.md      # 12-week roadmap
+├── QUICK_REFERENCE.md        # Daily use cheat sheet
+│
+├── docs/
+│   └── private/              # Private docs (DO NOT COMMIT)
+│       ├── FINAL_PDR_12WEEKS.md           # 12-week roadmap
+│       ├── SECURITY_ARCHITECTURE.md        # LP security design
+│       └── DOCUMENTATION_CLEANUP_SUMMARY.md
 │
 ├── test_integration.py       # Full integration test + data loading
 ├── quick_demo.py             # Quick agent test
